@@ -65,7 +65,7 @@ commentSubmit.addEventListener('click', () => {
   newComment.classList.add('comments');
   newComment.innerHTML = `
     <div class="profile">
-      <img src="./assets/images/anonymous-user.png" />
+      <img src="./assets/images/anonymous-user.png" style="width: 60px; height:50px" />
     </div>
     <div class="comment-content">
       <p class="name">
